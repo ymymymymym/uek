@@ -1,0 +1,405 @@
+/*
+* @Author: yuxiaoxian
+* @Date:   2017-04-05 19:29:42
+* @Last Modified by:   yuxiaoxian
+* @Last Modified time: 2017-04-10 00:00:09
+*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	-webkit-overflow-scrolling:touch;
+	/* -webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0); */
+	-webkit-user-select:none;user-select:none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	-webkit-text-size-adjust: 100%;
+  	text-size-adjust: 100%;
+}
+body{
+	background: #f0f0f0;
+	font-family:Helvetica;
+	-webkit-overflow-scrolling:touch; overflow-scrolling: touch;
+}
+p{
+	max-height:9999999px;
+}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+/* 头部 */
+/* .head{
+	width: 100%;
+	background: #37BBFF;
+	padding: 1% 0;
+} */
+.head{
+	width: 100%;
+	height: 0.4rem;
+	background: #007BE3;
+	position: fixed;
+	z-index: 999;
+}
+.head .logo{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 1.3rem;
+	float: left;
+	margin-top: 0.06rem;
+}
+.head .logo img{
+	width: 100%;
+	height: 100%;
+}
+.head .title{
+	width: 0.7rem;
+	height: 0.3rem;
+	float: left;
+	background: #007BE3;
+	margin-left: 1.6rem;
+	font-size: 0.18rem;
+	text-align: center;
+	font-family: 微软雅黑;
+	line-height: 0.4rem;
+	color: white;
+	margin-top: -0.35rem;
+}
+
+
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.1rem;
+}
+.banner img{
+	display: block;
+	/* width: 100%; */
+	height: 100%;
+	margin-left: -0.95rem;
+}
+/* 八个图 */
+.bagetu{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.bagetu .tu{
+	width: 25%;
+	height: 1.1rem;
+	padding: 0.1rem 0.1rem;
+	box-sizing: border-box; 
+
+}
+.bagetu .tu .tu1{
+	width: 100%;
+	height: 80%;
+	padding: 0.1rem 0.1rem;
+	box-sizing: border-box;
+	background: white;
+	border-radius:10% 10%;
+}
+.bagetu .tu .tu1 img{
+	width: 100%;
+	height: 100%;
+}
+.bagetu .tu .tu1 .zi{
+	width: 100%;
+	height: 20%;
+	font-size: 0.12rem;
+	line-height: 20%;
+	text-align: center;
+	padding-top: 0.25rem;
+	box-sizing: border-box;
+	color: #A9AAAC;
+	font-family: 微软雅黑;
+}
+/* 服务体系 */
+.title{
+	width: 100%;
+	height: 0.3rem;
+	background: white;
+	color: #78B2D8;
+	line-height: 0.3rem;
+	text-align: center;
+	font-size: 0.12rem;
+	margin-top: 0.2rem;
+}
+.xia{
+	width: 100%;
+	height: 1.11rem;
+}
+.xia .xia1{
+	width: 50%;
+	height: 100%;
+	border-bottom: 1px solid #E8E8E8;
+	border-right: 1px solid #E8E8E8;
+	border-top: 1px solid #E8E8E8;
+	box-sizing: border-box;
+	float: left;
+	background: white;
+	position: relative;
+}
+.xia .xia1 .tk{
+	width: 0.75rem;
+	height: 0.66rem;
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.95rem;
+}
+.xia .xia1 img{
+	width: 100%;
+	height: 100%;
+}
+.xia .xia1 .zi1{
+	font-size: 0.12rem;
+	width: 0.9rem;
+	height: 0.17rem;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.2rem;
+	color: black;
+}
+.xia .xia1 .zi2{
+	font-size: 0.12rem;
+	width: 0.9rem;
+	height: 0.17rem;
+	color: #A0A0A0;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.4rem;
+}
+.xia .xia2{
+	width: 50%;
+	height: 100%;
+	border-bottom: 1px solid #E8E8E8;
+	border-top: 1px solid #E8E8E8;
+	box-sizing: border-box;
+	float: left;
+	background: white;
+	position: relative;
+}
+.xia .xia2 .tk{
+	width: 0.75rem;
+	height: 0.66rem;
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.95rem;
+}
+.xia .xia2 img{
+	width: 100%;
+	height: 100%
+}
+.xia .xia2 .zi1{
+	font-size: 0.12rem;
+	width: 0.9rem;
+	height: 0.17rem;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.2rem;
+	color: black;
+}
+.xia .xia2 .zi2{
+	font-size: 0.12rem;
+	width: 0.9rem;
+	height: 0.17rem;
+	color: #A0A0A0;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.4rem;
+}
+/* 最后 */
+.bottom{
+	width: 100%;
+	height: 0.69rem;
+	position: relative;
+}
+.bottom .b1{
+	width: 33.33%;
+	height: 100%;
+	background: white;
+	float: left;
+	border-right: 1px solid #E8E8E8; 
+	box-sizing: border-box;
+}
+.bottom .b1 img{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 0.07rem;
+	top: 0.15rem;
+}
+.bottom .b1 .p1{
+	font-size: 0.12rem;
+	width: 0.5rem;
+	height: 0.17rem;
+	float: right;
+	margin-right: 0.35rem;
+	margin-top: 0.15rem;
+	color: black;
+}
+.bottom .b1 .p2{
+	font-size: 0.12rem;
+	width: 0.6rem;
+	height: 0.3rem;
+	color: #A0A0A0;
+	float: left;
+	position: absolute;
+	left: 0.38rem;
+	top: 0.3rem;
+}
+.bottom .b2{
+	width: 33.33%;
+	height: 100%;
+	background: white;
+	float: left;
+	border-right:1px solid #E8E8E8;
+	box-sizing: border-box;
+}
+.bottom .b2 img{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 1.27rem;
+	top: 0.15rem;
+}
+.bottom .b2 .p1{
+	font-size: 0.12rem;
+	width: 0.6rem;
+	height: 0.17rem;
+	float: right;
+	margin-right: 0.28rem;
+	margin-top: 0.15rem;
+	color: black;
+}
+.bottom .b2 .p2{
+	font-size: 0.12rem;
+	width: 0.6rem;
+	height: 0.3rem;
+	color: #A0A0A0;
+	float: left;
+	position: absolute;
+	left: 1.6rem;
+	top: 0.3rem;
+}
+.bottom .b3{
+	width: 33.33%;
+	height: 100%;
+	background: white;
+	float: left;
+}
+.bottom .b3 img{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 2.53rem;
+	top: 0.15rem;
+}
+.bottom .b3 .p1{
+	font-size: 0.12rem;
+	width: 0.5rem;
+	height: 0.17rem;
+	float: right;
+	margin-right: 0.35rem;
+	margin-top: 0.15rem;
+	color: black;
+}
+.bottom .b3 .p2{
+	font-size: 0.12rem;
+	width: 0.6rem;
+	height: 0.3rem;
+	color: #A0A0A0;
+	float: left;
+	position: absolute;
+	left: 2.9rem;
+	top: 0.3rem;
+}
+.last{
+	width: 100%;
+	height: 0.4rem;
+	background: #E7E7E7;
+	float: left;
+}
+.last .lzuo{
+	width: 1.12rem;
+	height: 0.4rem;
+	float: left;
+}
+.last .lzuo .qq{
+	width: 0.16rem;
+	height: 0.16rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.15rem;
+}
+.last .lzuo .qq img{
+	width: 100%;
+	height: 100%;
+}
+.last .lzuo .mf{
+	width: 0.6rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	line-height: 0.4rem;
+	text-align: center;
+	float: left;
+	color: black;
+}
+.ju .phone{
+	display: block;
+	float: left;
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+	font-size:0.12rem; 
+}
+.ju{
+	width: 1.5rem;
+	height: 0.45rem;
+	background: #FF8D12;
+	float: left;
+	border-radius: 0.05rem 0.05rem;
+	margin-top: -0.45rem;
+	margin-left: 1.1rem;
+}
+.ju p{
+	width: 0.6rem;
+	height: 0.45rem;
+	color: white;
+	margin-top: 0.03rem;
+	float: left;
+	margin-left: 0.06rem;
+	line-height: 0.45rem;
+	text-align: center;
+	font-size: 0.14rem;
+	font-family: 微软雅黑;
+}
+.last .lyou{
+	width: 1.12rem;
+	height: 0.4rem;
+	float: right;
+}
+.last .lyou .xinxi{
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.15rem;
+	line-height: 0.2rem;
+	font-size: 0.14rem;
+}
+.last .lyou .mf{
+	width: 0.6rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	line-height: 0.4rem;
+	text-align: center;
+	float: left;
+	color: black;
+}

@@ -1,0 +1,265 @@
+/*
+* @Author: yuxiaoxian
+* @Date:   2017-04-08 16:10:46
+* @Last Modified by:   yuxiaoxian
+* @Last Modified time: 2017-04-10 13:43:30
+*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	-webkit-overflow-scrolling:touch;
+	 overflow-scrolling:touch;
+	-webkit-user-select:none;user-select:none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	-webkit-text-size-adjust: 100%;
+  	text-size-adjust: 100%;
+  	font-family:苹方,Helvetica;
+  	list-style: none;
+}
+html,body{
+	  	background: #F5F6FA;
+}
+p{
+	max-height:9999999px;
+}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+img{
+		display: block;
+}
+a{
+	display: block;
+	text-decoration:none;
+}
+body{
+	background: #F5F6FA;
+}
+
+
+
+/* head */
+
+.head{
+	width: 100%;
+	height: 0.445rem;
+	background: #007BE3;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.head li{
+	width: 20%;
+	height: 0.445rem;
+	float: left;
+	line-height: 0.5rem;
+	text-align: center;
+	font-size: 0.16rem;
+}
+.head a{
+	color: white;
+	/* font-family: 微软雅黑; */
+}
+
+
+/* banner */
+.banner{
+	width:100%;
+	height:2rem;
+	overflow: hidden;
+	position: relative;
+}
+.banner .bannertu{
+	width:100%;
+	height:100%;
+	background-image: url("../img/banner.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+}
+.banner .box{
+	width: 25%;
+	height: 0.05rem;
+	background: #FD8C12;
+	position: absolute;
+	bottom:0;
+}
+
+
+
+/* title */
+.health{
+	width: 100%;
+	height: auto;
+	padding: 0.2rem 0.1rem;
+	box-sizing: border-box;
+}
+.health .box{
+	width: 100%;
+	height:0.2rem;
+}
+.health .aa{
+	display:block;
+	font-size: 0.12rem;
+	color: #636263; 
+	float: left;
+	margin-right:0.05rem;
+}
+.health .box .jian{
+	width: 0.1rem;
+	height: 0.1rem;
+	display:block;
+	float: left;
+	margin-top: 0.04rem;
+}
+.health span{
+	display: block;
+	font-size: 0.12rem;
+	color: #636263; 
+	float: left;
+	margin-right:0.05rem;
+}
+.health .con{
+	width:100%;
+	height:auto;
+	background:#fff;
+	padding: 0.3rem 0.1rem 0 0.1rem;
+	box-sizing: border-box;
+}
+.health .con .p1{
+	font-size: 0.12rem;
+	color: #333333;
+	margin-bottom: 0.25rem;
+}
+.health .con .box2{
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+}
+.health .con .box2 .box1{
+	width:48%;
+	height: 1.33rem;
+	float:left;
+	margin-right: 4%;
+	margin-bottom: 4%;
+}
+.health .con .box2 .box3{
+	width:48%;
+	height: 1.33rem;
+	float:left;
+	background: blue;
+}
+.health .con img{
+	width: 100%;
+	height:100%;
+}
+.health .con .box3{
+	width: 100%;
+	height: 1.33rem;
+}
+
+.bottom2{
+	width: 100%;
+	height: auto;
+	margin-top: 0.05rem;
+}
+.bottom2 .p{
+	font-size: 0.12rem;
+	text-align: center;
+	color: #767677;
+}
+
+
+.over{
+	width: 100%;
+	height: 0.000001rem;
+	position: relative;
+	margin-top: 0.45rem;
+}
+.over .last{
+	width: 100%;
+	height: 0.4rem;
+	background: #E7E7E7;
+	float: left;
+	margin-top: -0.4rem;
+	position: relative;
+}
+.over .last .lzuo{
+	width: 1.12rem;
+	height: 0.4rem;
+	float: left;
+}
+.over .last .lzuo .qq{
+	width: 0.16rem;
+	height: 0.16rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.15rem;
+}
+.over .last .lzuo .qq img{
+	width: 100%;
+	height: 100%;
+}
+.over .last .lzuo .mf{
+	width: 0.6rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	line-height: 0.4rem;
+	text-align: center;
+	float: left;
+	color: black;
+}
+.over .ju .phone{
+	display: block;
+	float: left;
+	margin-left: 0.3rem;
+	margin-top: 0.15rem;
+	font-size:0.12rem; 
+}
+.over .ju{
+ 	width: 1.5rem;
+	height: 0.4rem;
+	background: #FF8D12;
+	float: left;
+	border-radius: 0.05rem 0.05rem;
+	margin-top: -0.45rem;
+	margin-left: 1.1rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.over .ju p{
+	width: 0.6rem;
+	height: 0.45rem;
+	color: white;
+	margin-top: 0.03rem;
+	float: left;
+	margin-left: 0.06rem;
+	line-height: 0.35rem;
+	text-align: center;
+	font-size: 0.14rem;
+	font-family: 微软雅黑;
+}
+.over .last .lyou{
+	width: 1.12rem;
+	height: 0.4rem;
+	float: right;
+}
+.over .last .lyou .xinxi{
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.15rem;
+	line-height: 0.2rem;
+	font-size: 0.14rem;
+}
+.over .last .lyou .mf{
+	width: 0.6rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	line-height: 0.4rem;
+	text-align: center;
+	float: left;
+	color: black;
+}
